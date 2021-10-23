@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: rgb(243, 241, 241);
+  height: 150px;
+}
+
+.h1 {
+  padding: 0 3em;
+  flex-grow: 1;
+  font-size: 54px;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 0.3em;
+}
+
+.navLink {
+  color: black;
+  margin: 1em;
+  padding: 0.8em;
+  text-decoration: none;
+  font-style: italic;
+  border: 1px solid grey;
+  border-radius: 0.5em;
+}
